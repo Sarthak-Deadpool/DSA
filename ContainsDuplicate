@@ -1,0 +1,20 @@
+// Brute  force 
+
+var containsDuplicate = function (nums) {
+  for(let i = 1; i< nums.length-1; i++){
+      for(let j = i+1; j < nums.length; j++){
+          if(nums[i] === nums[j]){
+              return true;
+            }
+        }
+      }
+return false;
+}
+
+// using hash set 
+
+var containsDuplicate = function (nums) {
+
+}
+
+
