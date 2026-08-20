@@ -1,12 +1,13 @@
-function threeSum(arr){
+function threeSum(nums){
+  let arr = nums.sort((a,b) => a-b);
   let ans = []
 
-  for(let i = 0; i < arr.length; i++){
-    if(i > 0 && arr[i] === arr[i+1]){
+  for(let i = 0; i < arr.length-2; i++){
+    if(i > 0 && arr[i] === arr[i-1]){
       continue;
     }
-    let j = i;
-    let k = arr.length;
+    let j = i+1;
+    let k = arr.length-1;
 
     while(j < k){
       let val = arr[i] + arr[j] + arr[k];
@@ -16,8 +17,10 @@ function threeSum(arr){
       }else if(val > 0){
         k--;
       }else{
-        ans.push(arr[i] + arr[j] + arr[k]);
-        while(j<arr.length && arr[j] === arr[j+1]){
+        ans.push([arr[i] , arr[j] , arr[k]]);
+        j++;
+        k--;
+        while(j<k && arr[j] === arr[j-1]){
           j++;
         }
       }
