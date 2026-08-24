@@ -35,10 +35,10 @@
 
 | # | Problem | Difficulty | Pattern | Status |
 |---|---|---|---|---|
-| 20 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | HashSet / Cycle Detection | ⬜ Unsolved |
-| 21 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | Easy | HashMap / Mapping | ⬜ Unsolved |
-| 22 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | Easy | HashMap / Mapping | ⬜ Unsolved |
-| 23 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | HashMap / Frequency | ⬜ Unsolved |
+| 20 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | HashSet / Cycle Detection | 🟢 Solved |
+| 21 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | Easy | HashMap / Mapping | 🟢 Solved |
+| 22 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | Easy | HashMap / Mapping | 🟢 Solved |
+| 23 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | HashMap / Frequency | 🟢 Solved |
 | 24 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | Easy | HashMap / Frequency | ⬜ Unsolved |
 | 25 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | Easy | HashMap / Frequency | ⬜ Unsolved |
 | 26 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | Easy | HashSet | ⬜ Unsolved |
