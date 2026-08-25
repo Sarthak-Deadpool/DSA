@@ -10,15 +10,15 @@ const validSudoku = (arr) => {
       if (arr[r][c] === ".") continue;
 
       let e = arr[r][c];
-      let boxIndex = Math.floor(r / 3) * 3 + Math.floor(c / 3);
+      let boxIndex = Math.max(r / 3) * 3 + Math.max(c / 3);
 
       if (row[r].has(e) || col[c].has(e) || box[boxIndex].has(e)) {
         return false;
       }
 
-      row[r].add(e);
-      col[c].add(e);
-      box[boxIndex].add(e);
+      row[r].push(e);
+      col[c].push(e);
+      box[boxIndex].push(e);
     }
   }
 
@@ -49,4 +49,4 @@ const input2 = [
   [".", ".", ".", ".", "8", ".", ".", "7", "9"],
 ];
 
-console.log(validSudoku(input2));
+console.log(validSudoku(input));
