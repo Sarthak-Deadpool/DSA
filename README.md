@@ -39,10 +39,10 @@
 | 21 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | Easy | HashMap / Mapping | 🟢 Solved |
 | 22 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | Easy | HashMap / Mapping | 🟢 Solved |
 | 23 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | HashMap / Frequency | 🟢 Solved |
-| 24 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | Easy | HashMap / Frequency | ⬜ Unsolved |
-| 25 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | Easy | HashMap / Frequency | ⬜ Unsolved |
-| 26 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | Easy | HashSet | ⬜ Unsolved |
-| 27 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy | HashMap / Frequency | ⬜ Unsolved |
+| 24 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | Easy | HashMap / Frequency | 🟢 Solved |
+| 25 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | Easy | HashMap / Frequency | 🟢 Solved |
+| 26 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | Easy | HashSet | 🟢 Solved |
+| 27 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy | HashMap / Frequency | 🟢 Solved |
 | 28 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | HashSet | ⬜ Unsolved |
 | 29 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | XOR / Math | ⬜ Unsolved |
 | 30 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy | In-Place Hashing | ⬜ Unsolved |
