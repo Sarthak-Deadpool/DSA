@@ -12,6 +12,6 @@ const maj = (arr)=>{
     return [...map.entries()].reduce((max, entry) => entry[1] > max[1]? entry : max)[0];
 }
 
-const input = [2,2,2,2,4,4,4,4,4,4,4,7,5,3,3,3];
+const input = [2,2,2,2,4,4,7,5,3,3,3];
 
 console.log(maj(input));
