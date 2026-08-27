@@ -2,7 +2,6 @@
 
 const inter = (a1, a2) => {
   let map1 = new Map();
-  let map2 = new Map();
 
   let ans = [];
 
@@ -19,7 +18,7 @@ const inter = (a1, a2) => {
       let n = Math.min(val, map2.get(key));
 
       while (n > 0) {
-        ans.push(key);
+        ans.push(val);
         n--;
       }
     }
@@ -28,7 +27,7 @@ const inter = (a1, a2) => {
   return ans;
 };
 
-const a1 = [1, 2, 2, 3, 1];
-const a2 = [2, 2, , 3, 3, 1];
+const a1 = [1, 2, 2, 1];
+const a2 = [2, 2];
 
 console.log(inter(a1, a2));
