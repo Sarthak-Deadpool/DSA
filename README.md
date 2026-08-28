@@ -43,11 +43,11 @@
 | 25 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | Easy | HashMap / Frequency | 🟢 Solved |
 | 26 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | Easy | HashSet | 🟢 Solved |
 | 27 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy | HashMap / Frequency | 🟢 Solved |
-| 28 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | HashSet | ⬜ Unsolved |
-| 29 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | XOR / Math | ⬜ Unsolved |
-| 30 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy | In-Place Hashing | ⬜ Unsolved |
-| 31 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | Medium | In-Place Hashing | ⬜ Unsolved |
-| 32 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | Easy | Hashing / Array | ⬜ Unsolved |
+| 28 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | HashSet | 🟢 Solved |
+| 29 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | XOR / Math | 🟢 Solved |
+| 30 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy | In-Place Hashing | 🟢 Solved|
+| 31 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | Medium | In-Place Hashing | 🟢 Solved|
+| 32 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | Easy | Hashing / Array | 🟢 Solved |
 | 33 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | Easy | HashSet | ⬜ Unsolved |
 | 34 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | Medium | HashMap / Frequency | ⬜ Unsolved |
 | 35 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | Kadane's Algorithm | ⬜ Unsolved |
