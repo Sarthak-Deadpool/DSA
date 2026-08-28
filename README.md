@@ -48,10 +48,10 @@
 | 30 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy | In-Place Hashing | 🟢 Solved|
 | 31 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | Medium | In-Place Hashing | 🟢 Solved|
 | 32 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | Easy | Hashing / Array | 🟢 Solved |
-| 33 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | Easy | HashSet | ⬜ Unsolved |
-| 34 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | Medium | HashMap / Frequency | ⬜ Unsolved |
-| 35 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | Kadane's Algorithm | ⬜ Unsolved |
-| 36 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Medium | Array / Dynamic Tracking | ⬜ Unsolved |
+| 33 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | Easy | HashSet |  🟢 Solved |
+| 34 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | Medium | HashMap / Frequency |  🟢 Solved |
+| 35 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | Kadane's Algorithm |  🟢 Solved |
+| 36 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Medium | Array / Dynamic Tracking |  🟢 Solved |
 | 37 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Easy | Prefix Sum | ⬜ Unsolved |
 | 38 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | Prefix Sum + HashMap | ⬜ Unsolved |
 | 39 | [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | Medium | Prefix Sum + HashMap | ⬜ Unsolved |
