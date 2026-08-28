@@ -73,8 +73,8 @@
 | Previously Solved | 19 |
 | This Week's Target | 28 |
 | Total After Completion | 47 |
-| This Week Completed | 0 / 28 |
-| Overall Completed | 19 / 47 |
+| This Week Completed | 17 / 28 |
+| Overall Completed | 36 / 47 |
 
 ---
 
