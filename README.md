@@ -52,13 +52,13 @@
 | 34 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | Medium | HashMap / Frequency |  🟢 Solved |
 | 35 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | Kadane's Algorithm |  🟢 Solved |
 | 36 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Medium | Array / Dynamic Tracking |  🟢 Solved |
-| 37 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Easy | Prefix Sum | ⬜ Unsolved |
-| 38 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | Prefix Sum + HashMap | ⬜ Unsolved |
-| 39 | [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | Medium | Prefix Sum + HashMap | ⬜ Unsolved |
-| 40 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | Medium | Prefix Sum + HashMap | ⬜ Unsolved |
-| 41 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/) | Medium | Prefix Product | ⬜ Unsolved |
-| 42 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | Easy | Prefix Sum | ⬜ Unsolved |
-| 43 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | Easy | Frequency / XOR | ⬜ Unsolved |
+| 37 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Easy | Prefix Sum | 🟢 Solved |
+| 38 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | Prefix Sum + HashMap | 🟢 Solved |
+| 39 | [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | Medium | Prefix Sum + HashMap | 🟢 Solved |
+| 40 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | Medium | Prefix Sum + HashMap | 🟢 Solved |
+| 41 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/) | Medium | Prefix Product | 🟢 Solved |
+| 42 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | Easy | Prefix Sum | 🟢 Solved |
+| 43 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | Easy | Frequency / XOR | 🟢 Solved |
 | 44 | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | Easy | Array / Sorting | ⬜ Unsolved |
 | 45 | [Missing Number in Arithmetic Progression](https://leetcode.com/problems/missing-number-in-arithmetic-progression/) | Easy | Array / Math | ⬜ Unsolved |
 | 46 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | Hard | In-Place Hashing | ⬜ Unsolved |
