@@ -2,115 +2,97 @@
 
 // /** @format */
 
-// const ransome = (r, m) => {
-//   let map1 = new Map();
-//   let map2 = new Map();
+// const happy = (num) => {
+//   let set = new Set();
 
-//   for (let val of r) {
-//     map1.set(val, (map1.get(val) || 0) + 1);
+//   function nextNumber(num) {
+//     let nextNum = 0;
+//     while (num > 0) {
+//       let digit = num % 10;
+//       nextNum += digit * digit;
+//       num = Math.floor(num / 10);
+//     }
+//     return nextNum;
 //   }
 
-//   for (let val of m) {
-//     map2.set(val, (map2.get(val) || 0) + 1);
+//   while (!set.has(num)) {
+//     set.add(num);
+//     num = nextNumber(num);
+
+//     if (num === 1) {
+//       return true;
+//     }
 //   }
 
-//   for (let [key, val] of map1) {
-//     if (map2.has(key) && map2.get(key) < val) {
+//   return false;
+// };
+
+// console.log(happy());
+
+// const iso = (s, t) => {
+//   let map = new Map();
+
+//   for (let i = 0; i < s.length; i++) {
+//     if (map.has(s[i]) && map.get(s[i]) !== t[i]) {
+//       return false;
+//     }
+//     if (!map.has(s[i]) && Array.from(map.values()).includes(t[i])) {
 //       return false;
 //     }
 
-//     if (!map2.has(key)) {
-//       return false;
-//     }
+//     map.set(s[i], t[i]);
 //   }
 
 //   return true;
 // };
 
-// const r = "b";
-// const m = "aaabnb";
+// console.log(iso("aadd", "eeeg"));
 
-// console.log(ransome(r, m));
+// const pattern = (s, t) => {
+//   let map = new Map();
+//   let arr = t.split(" ");
 
-// const unique = (s) => {
+//   for (let i = 0; i < s.length; i++) {
+//     if (map.has(s[i]) && map.get(s[i]) !== arr[i]) {
+//       return false;
+//     }
+
+//     if (!map.has(s[i]) && Array.from(map.values()).includes(arr[i])) {
+//       return false;
+//     }
+
+//     map.set(s[i], arr[i]);
+//   }
+
+//   return true;
+// };
+
+// console.log(pattern("abca", "dog cat cat dog"));
+
+// const major = (arr) => {
 //   let map = new Map();
 
-//   for (let val of s) {
+//   for (let val of arr) {
 //     map.set(val, (map.get(val) || 0) + 1);
 //   }
 
-//   for (let i = 0; i < s.length; i++) {
-//     if (map.get(s[i]) === 1) {
-//       return i;
+//   for (let [key, val] of map) {
+//     if (val > Math.floor(arr.length / 2)) {
+//       return key;
 //     }
 //   }
-
 //   return 0;
 // };
 
-// const s = "eeetcode";
+// console.log(major([1, 1, 2, 3]));
 
-// console.log(unique(s));
-
-// const inter = (a1, a2) => {
-//   let set1 = new Set(a1);
-//   let set2 = new Set(a2);
-
-//   let ans = [];
-
-//   for (let val of set1) {
-//     if (set2.has(val)) {
-//       ans.push(val);
-//     }
-//   }
-
-//   return ans;
-// };
-
-// const a1 = [1, 2, 3, 4, 1, 2];
-// const a2 = [2, 3, 2, 3];
-
-// console.log(inter(a1, a2));
-
-// const inter2 = (a1, a2) => {
-//   let map1 = new Map();
-//   let map2 = new Map();
-
-//   let ans = [];
-
-//   for (let val of a1) {
-//     map1.set(val, (map1.get(val) || 0) + 1);
-//   }
-
-//   for (let val of a2) {
-//     map2.set(val, (map2.get(val) || 0) + 1);
-//   }
-
-//   for (let [key, val] of map1) {
-//     if (map2.has(key)) {
-//       let minfr = Math.min(map2.get(key), val);
-
-//       while (minfr > 0) {
-//         ans.push(key);
-//         minfr--;
-//       }
-//     }
-//   }
-//   return ans;
-// };
-
-// const a1 = [1, 2, 3, 3, 4, 1, 2];
-// const a2 = [2, 3, 2, 1, 3];
-
-// console.log(inter2(a1, a2));
-
-// const dis = (arr) => {
+// const disappear = (arr) => {
 //   let ans = [];
 
 //   for (let i = 0; i < arr.length; i++) {
-//     let index = arr[i] - 1;
+//     let index = Math.abs(arr[i]) - 1;
 
-//     if (arr[i] > 0) {
+//     if (arr[index] > 0) {
 //       arr[index] *= -1;
 //     }
 //   }
@@ -120,23 +102,19 @@
 //       ans.push(i + 1);
 //     }
 //   }
-
 //   return ans;
 // };
 
-// const a = [1, 2, 4, 4];
-// console.log(dis(a));
+// console.log(disappear([1,1]));
 
-// /** @format */
-
-// const dup = (arr) => {
+// const duplicate = (arr) => {
 //   let ans = [];
 
 //   for (let i = 0; i < arr.length; i++) {
 //     let index = Math.abs(arr[i]) - 1;
 
 //     if (arr[index] < 0) {
-//       ans.push(arr[i]);
+//       ans.push(index + 1);
 //     } else {
 //       arr[index] *= -1;
 //     }
@@ -144,27 +122,118 @@
 //   return ans;
 // };
 
-// const a = [1, 1, 2, 3, 4, 4, 2, 5, 4, 1, 3];
+// console.log(duplicate([4, 3, 2, 7, 8, 2, 3, 1]));
 
-// console.log(dup(a));
+// const mismatch = (arr) => {
+//   let set = new Set();
+//   let ans = [];
+//   for (let val of arr) {
+//     if (set.has(val)) {
+//       ans.push(val);
+//     }
+//     set.add(val)
+//   }
 
-//
+//   for (let i = 1; i <= arr.length; i++) {
+//     if (!set.has(i)) {
+//       ans.push(i);
+//     }
+//   }
+
+//   return ans;
+// };
+
+// console.log(mismatch([1, 2, 1, 4]));
+
+// const missing = (arr) => {
+//   let ans = 0;
+
+//   for (let i = 1; i <= arr.length; i++) {
+//     ans ^= i;
+//   }
+
+//   for (let i = 0; i < arr.length; i++) {
+//     ans ^= arr[i];
+//   }
+
+//   return ans;
+// };
+
+// console.log(missing([9, 6, 4, 2, 3, 5, 7, 0, 1]));
+
+// const diff = (a1, a2) => {
+//   let set1 = new Set(a1);
+//   let set2 = new Set(a2);
+
+//   let ans1 = [];
+//   let ans2 = [];
+//   for (let val of set1) {
+//     if (!set2.has(val)) {
+//       ans1.push(val);
+//     }
+//   }
+
+//   for (let val of set2) {
+//     if (!set1.has(val)) {
+//       ans2.push(val);
+//     }
+//   }
+
+//   return [ans1, ans2];
+// };
+
+// console.log(diff([1, 2, 3, 4 , 5], [1, 2, 2, 3, 4]));
+
+// const major = (arr) => {
+//   let map = new Map();
+
+//   let ans = [];
+//   for (let val of arr) {
+//     map.set(val, (map.get(val) || 0) + 1);
+//   }
+
+//   for (let [key, val] of map) {
+//     if (val > Math.floor(arr.length / 3)) {
+//       ans.push(key);
+//     }
+//   }
+
+//   return ans;
+// };
+
+// console.log(major([1, 1 ,2, 2]));
+
+// const maximumSub = (arr) => {
+//   let maxSum = arr[0];
+//   let maxEnd = arr[0];
+
+//   for (let i = 1; i < arr.length; i++) {
+//     maxEnd = Math.max(arr[i], maxEnd + arr[i]);
+
+//     maxSum = Math.max(maxEnd, maxSum);
+//   }
+
+//   return maxSum;
+// };
+
+// console.log(maximumSub([-2, 1, -3, 4, -1, 2, 1, -5, 4]));
 
 /** @format */
 
-const missing = (arr) => {
-  let ans = 0;
+const maxpro = (arr) => {
+  let maxEnd = 1;
+  let minEnd = 1;
 
-  for (let i = 1; i <= arr.length; i++) {
-    ans ^= i;
-  }
+  let maxPro = Math.max(...arr);
 
   for (let i = 0; i < arr.length; i++) {
-    ans ^= arr[i];
+    let tempMax = maxEnd * arr[i];
+    maxEnd = Math.max(tempMax, minEnd * arr[i], arr[i]);
+    minEnd = Math.min(tempMax, minEnd * arr[i], arr[i]);
+
+    maxPro = Math.max(maxPro, maxEnd);
   }
-  return ans;
+  return maxPro;
 };
 
-const a = [3, 2, 0, 1];
-
-console.log(missing(a));
+console.log(maxpro([-2, 0, -1]));
