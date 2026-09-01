@@ -6,7 +6,7 @@ const dis = (arr) => {
   for (let i = 0; i < arr.length; i++) {
     let index = Math.abs(arr[i]) - 1;
 
-    if (arr[i] > 0) {
+    if (arr[index] > 0) {
       arr[index] *= -1;
     }
   }
