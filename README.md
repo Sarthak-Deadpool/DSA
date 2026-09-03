@@ -34,9 +34,8 @@
 | 30 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | Easy | Prefix Sum | 🟢 Solved |
 | 31 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | Easy | Frequency / XOR | 🟢 Solved |
 | 32 | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | Easy | Array / Sorting | 🟢 Solved |
-| 33 | [Missing Number in Arithmetic Progression](https://leetcode.com/problems/missing-number-in-arithmetic-progression/) | Easy | Array / Math | ⬜ Unsolved |
-| 34 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | Hard | In-Place Hashing | 🟢 Solved |
-| 35 | [Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/) | Medium | HashMap / Frequency | 🟢 Solved |
+| 33 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | Hard | In-Place Hashing | 🟢 Solved |
+| 34 | [Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/) | Medium | HashMap / Frequency | 🟢 Solved |
 
 ---
 
@@ -44,8 +43,8 @@
 
 | Category | Count |
 |---|---:|
-| Target | 35 |
-| Completed | 35 / 35 |
+| Target | 34 |
+| Completed | 34 / 34 |
 
 ---
 
@@ -112,41 +111,41 @@ The following topics will be handled separately:
 | 3 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | Sorting + Two Pointers | 🟢 Solved |
 | 4 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | Two Pointers | 🟢 Solved |
 | 5 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | Two Pointers | 🟢 Solved |
-| 6 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | Two Pointers | ⬜ Unsolved |
-| 7 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | Two Pointers | ⬜ Unsolved |
-| 8 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | Two Pointers | ⬜ Unsolved |
-| 9 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | Two Pointers | ⬜ Unsolved |
-| 10 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | Easy | Two Pointers | ⬜ Unsolved |
+| 6 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | Fast & Slow Pointers | ⬜ Unsolved |
+| 7 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | Fast & Slow Pointers | ⬜ Unsolved |
+| 8 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | Fast & Slow Pointers | ⬜ Unsolved |
+| 9 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | Opposite Pointers | ⬜ Unsolved |
+| 10 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | Easy | Opposite Pointers | ⬜ Unsolved |
 | 11 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | Two Pointers | ⬜ Unsolved |
 | 12 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Easy | Two Pointers | ⬜ Unsolved |
-| 13 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | Two Pointers | ⬜ Unsolved |
+| 13 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | Opposite Pointers | ⬜ Unsolved |
 | 14 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | Easy | Two Pointers | ⬜ Unsolved |
 | 15 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy | Sorting + Two Pointers | ⬜ Unsolved |
 | 16 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | Easy | Two Pointers | ⬜ Unsolved |
 | 17 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/) | Easy | Two Pointers | ⬜ Unsolved |
 | 18 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Easy | Two Pointers | ⬜ Unsolved |
 | 19 | [Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/) | Medium | Two Pointers | ⬜ Unsolved |
-| 20 | [String Compression](https://leetcode.com/problems/string-compression/) | Medium | Two Pointers | ⬜ Unsolved |
-| 21 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
-| 22 | [4Sum](https://leetcode.com/problems/4sum/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
-| 23 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
-| 24 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
-| 25 | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | Medium | Two Pointers + Counting | ⬜ Unsolved |
-| 26 | [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
-| 27 | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | Medium | Two Pointers / Partition | ⬜ Unsolved |
-| 28 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | Medium | Two Pointers | ⬜ Unsolved |
-| 29 | [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/) | Medium | Two Pointers + Greedy | ⬜ Unsolved |
-| 30 | [Push Dominoes](https://leetcode.com/problems/push-dominoes/) | Medium | Two Pointers | ⬜ Unsolved |
-| 31 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | Easy | Two Pointers | ⬜ Unsolved |
-| 32 | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/) | Medium | Two Pointers | ⬜ Unsolved |
-| 33 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | Easy | Two Pointers | ⬜ Unsolved |
-| 34 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | Two Pointers | ⬜ Unsolved |
-| 35 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | Easy | Two Pointers | ⬜ Unsolved |
-| 36 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | Medium | Two Pointers | ⬜ Unsolved |
-| 37 | [Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii/) | Medium | Two Pointers | ⬜ Unsolved |
-| 38 | [Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/) | Medium | Two Pointers | ⬜ Unsolved |
-| 39 | [Find the Middle Index in Array](https://leetcode.com/problems/find-pivot-index/) | Easy | Two Pointers / Prefix | ⬜ Unsolved |
-| 40 | [DI String Match](https://leetcode.com/problems/di-string-match/) | Easy | Two Pointers / Greedy | ⬜ Unsolved |
+| 20 | [String Compression](https://leetcode.com/problems/string-compression/) | Medium | Fast & Slow Pointers | ⬜ Unsolved |
+| 21 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | Easy | Two Pointers | ⬜ Unsolved |
+| 22 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | Two Pointers | ⬜ Unsolved |
+| 23 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | Easy | Two Pointers | ⬜ Unsolved |
+| 24 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
+| 25 | [4Sum](https://leetcode.com/problems/4sum/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
+| 26 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
+| 27 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
+| 28 | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | Medium | Two Pointers + Counting | ⬜ Unsolved |
+| 29 | [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
+| 30 | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | Medium | Two Pointers / Partition | ⬜ Unsolved |
+| 31 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | Medium | Two Pointers | ⬜ Unsolved |
+| 32 | [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
+| 33 | [Push Dominoes](https://leetcode.com/problems/push-dominoes/) | Medium | Two Pointers | ⬜ Unsolved |
+| 34 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | Easy | Two Pointers | ⬜ Unsolved |
+| 35 | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/) | Medium | Two Pointers | ⬜ Unsolved |
+| 36 | [Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii/) | Medium | Two Pointers | ⬜ Unsolved |
+| 37 | [Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/) | Medium | Two Pointers | ⬜ Unsolved |
+| 38 | [Move Pieces to Obtain a String](https://leetcode.com/problems/move-pieces-to-obtain-a-string/) | Medium | Two Pointers | ⬜ Unsolved |
+| 39 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | Medium | Two Pointers / Array Manipulation | ⬜ Unsolved |
+| 40 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | Multiple Pointers | ⬜ Unsolved |
 
 ---
 
@@ -165,6 +164,68 @@ The following topics will be handled separately:
 - 🔵 **Revised** — Solved again during revision
 - ⬜ **Unsolved** — Not solved yet
 
-> **Goal:** Master the Two Pointer pattern from basic in-place array manipulation to sorting-based and advanced two-pointer problems.
+---
 
-> **Note:** Sliding Window will be covered separately.
+## 🎯 Two Pointer Patterns
+
+### 1. Opposite Direction
+- Left → ← Right
+- Palindromes
+- Pair problems
+- String problems
+
+### 2. Same Direction
+- Slow → Fast
+- In-place array modification
+- Removing/rearranging elements
+
+### 3. Sorting + Two Pointers
+- 3Sum
+- 4Sum
+- 3Sum Closest
+- Triangle problems
+
+### 4. Multiple Pointers
+- Three-pointer array problems
+- Partitioning
+- Merging sorted arrays
+
+---
+
+## 💡 Interview Rule
+
+For every problem, understand:
+
+1. Brute-force approach
+2. Optimized approach
+3. Why Two Pointers works
+4. Pointer movement logic
+5. Time complexity
+6. Space complexity
+7. Important edge cases
+
+> **Goal:** Master the Two Pointer pattern instead of memorizing individual solutions.
+
+---
+
+## 📌 Scope
+
+### Included
+- Array
+- String
+- Two Pointers
+- Fast & Slow pointers when used on arrays/strings
+- Sorting + Two Pointers
+- Multiple Pointers
+
+### Not Included
+- Sliding Window
+- Stack
+- Queue
+- Heap
+- Linked List
+- Tree
+- Graph
+- Binary Search
+
+> **Sliding Window will be studied separately.**
