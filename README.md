@@ -59,10 +59,10 @@
 | 41 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/) | Medium | Prefix Product | 🟢 Solved |
 | 42 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | Easy | Prefix Sum | 🟢 Solved |
 | 43 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | Easy | Frequency / XOR | 🟢 Solved |
-| 44 | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | Easy | Array / Sorting | ⬜ Unsolved |
+| 44 | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | Easy | Array / Sorting | 🟢 Solved |
 | 45 | [Missing Number in Arithmetic Progression](https://leetcode.com/problems/missing-number-in-arithmetic-progression/) | Easy | Array / Math | ⬜ Unsolved |
-| 46 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | Hard | In-Place Hashing | ⬜ Unsolved |
-| 47 | [Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/) | Medium | HashMap / Frequency | ⬜ Unsolved |
+| 46 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | Hard | In-Place Hashing | 🟢 Solved |
+| 47 | [Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/) | Medium | HashMap / Frequency | 🟢 Solved |
 
 ---
 
