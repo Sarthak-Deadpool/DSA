@@ -111,11 +111,11 @@ The following topics will be handled separately:
 | 3 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | Sorting + Two Pointers | 🟢 Solved |
 | 4 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | Two Pointers | 🟢 Solved |
 | 5 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | Two Pointers | 🟢 Solved |
-| 6 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | Fast & Slow Pointers | ⬜ Unsolved |
-| 7 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | Fast & Slow Pointers | ⬜ Unsolved |
-| 8 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | Fast & Slow Pointers | ⬜ Unsolved |
-| 9 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | Opposite Pointers | ⬜ Unsolved |
-| 10 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | Easy | Opposite Pointers | ⬜ Unsolved |
+| 6 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | Fast & Slow Pointers |🟢 Solved  |
+| 7 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | Fast & Slow Pointers | 🟢 Solved  |
+| 8 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | Fast & Slow Pointers | 🟢 Solved  |
+| 9 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | Opposite Pointers | 🟢 Solved  |
+| 10 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | Easy | Opposite Pointers | 🟢 Solved |
 | 11 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | Two Pointers | ⬜ Unsolved |
 | 12 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Easy | Two Pointers | ⬜ Unsolved |
 | 13 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | Opposite Pointers | ⬜ Unsolved |
