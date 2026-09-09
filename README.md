@@ -153,8 +153,8 @@ The following topics will be handled separately:
 
 | Category | Count |
 |---|---:|
-| Solved | 5 / 40 |
-| Unsolved | 35 / 40 |
+| Solved | 14 / 40 |
+| Unsolved | 26 / 40 |
 | Total | 40 |
 
 ## 📝 Status Legend
