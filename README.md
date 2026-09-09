@@ -116,10 +116,10 @@ The following topics will be handled separately:
 | 8 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | Fast & Slow Pointers | 🟢 Solved  |
 | 9 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | Opposite Pointers | 🟢 Solved  |
 | 10 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | Easy | Opposite Pointers | 🟢 Solved |
-| 11 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | Two Pointers | ⬜ Unsolved |
-| 12 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Easy | Two Pointers | ⬜ Unsolved |
-| 13 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | Opposite Pointers | ⬜ Unsolved |
-| 14 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | Easy | Two Pointers | ⬜ Unsolved |
+| 11 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | Two Pointers | 🟢 Solved |
+| 12 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Easy | Two Pointers | 🟢 Solved |
+| 13 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | Opposite Pointers | 🟢 Solved |
+| 14 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | Easy | Two Pointers | 🟢 Solved |
 | 15 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy | Sorting + Two Pointers | ⬜ Unsolved |
 | 16 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | Easy | Two Pointers | ⬜ Unsolved |
 | 17 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/) | Easy | Two Pointers | ⬜ Unsolved |
