@@ -1,8 +1,9 @@
 /** @format */
 
-/** @format */
-
 function square(arr) {
+  if (arr.length === 1) {
+    return [arr[0] * arr[0]];
+  }
   let ans = [];
 
   let i = 0;
@@ -20,5 +21,3 @@ function square(arr) {
 
   return ans;
 }
-
-console.log(square([0]));
