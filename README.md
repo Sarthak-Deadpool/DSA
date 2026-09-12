@@ -120,16 +120,16 @@ The following topics will be handled separately:
 | 12 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Easy | Two Pointers | 🟢 Solved |
 | 13 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | Opposite Pointers | 🟢 Solved |
 | 14 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | Easy | Two Pointers | 🟢 Solved |
-| 15 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy | Sorting + Two Pointers | ⬜ Unsolved |
-| 16 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | Easy | Two Pointers | ⬜ Unsolved |
-| 17 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/) | Easy | Two Pointers | ⬜ Unsolved |
-| 18 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Easy | Two Pointers | ⬜ Unsolved |
-| 19 | [Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/) | Medium | Two Pointers | ⬜ Unsolved |
-| 20 | [String Compression](https://leetcode.com/problems/string-compression/) | Medium | Fast & Slow Pointers | ⬜ Unsolved |
-| 21 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | Easy | Two Pointers | ⬜ Unsolved |
-| 22 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | Two Pointers | ⬜ Unsolved |
-| 23 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | Easy | Two Pointers | ⬜ Unsolved |
-| 24 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
+| 15 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy | Sorting + Two Pointers | 🟢 Solved |
+| 16 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | Easy | Two Pointers | 🟢 Solved |
+| 17 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/) | Easy | Two Pointers | 🟢 Solved |
+| 18 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Easy | Two Pointers | 🟢 Solved |
+| 19 | [Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/) | Medium | Two Pointers | 🟢 Solved |
+| 20 | [String Compression](https://leetcode.com/problems/string-compression/) | Medium | Fast & Slow Pointers | 🟢 Solved |
+| 21 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | Easy | Two Pointers | 🟢 Solved |
+| 22 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | Two Pointers | 🟢 Solved |
+| 23 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | Easy | Two Pointers | 🟢 Solved |
+| 24 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | Medium | Sorting + Two Pointers | 🟢 Solved |
 | 25 | [4Sum](https://leetcode.com/problems/4sum/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
 | 26 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
 | 27 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
