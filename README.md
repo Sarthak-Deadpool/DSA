@@ -130,8 +130,8 @@ The following topics will be handled separately:
 | 22 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | Two Pointers | 🟢 Solved |
 | 23 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | Easy | Two Pointers | 🟢 Solved |
 | 24 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | Medium | Sorting + Two Pointers | 🟢 Solved |
-| 25 | [4Sum](https://leetcode.com/problems/4sum/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
-| 26 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
+| 25 | [4Sum](https://leetcode.com/problems/4sum/) | Medium | Sorting + Two Pointers | 🟢 Solved |
+| 26 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | Sorting + Two Pointers | 🟢 Solved |
 | 27 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
 | 28 | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | Medium | Two Pointers + Counting | ⬜ Unsolved |
 | 29 | [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
@@ -153,7 +153,7 @@ The following topics will be handled separately:
 
 | Category | Count |
 |---|---:|
-| Solved | 24 / 40 |
+| Solved | 26 / 40 |
 | Unsolved | 14 / 40 |
 | Total | 40 |
 

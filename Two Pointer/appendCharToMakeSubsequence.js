@@ -9,9 +9,9 @@ var appendCharacters = function (s, t) {
   let i = 0;
   let j = 0;
 
-  while (i < s.length ) {
+  while (i < s.length) {
     if (s[i] === t[j]) {
-      j++
+      j++;
     }
 
     i++;
