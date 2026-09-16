@@ -1,23 +1,27 @@
 /**
  * @format
- * @param {string} s
- * @param {string} t
- * @return {number}
+ * @param {Number[]} arr
  */
 
-var appendCharacters = function (s, t) {
-  let i = 0;
-  let j = 0;
+function pivot(arr) {
+  let leftSum = new Array(arr.length).fill(0);
+  leftSum[0] = arr[0];
+  let rightSum = new Array(arr.length).fill(0);
+  rightSum[arr.length - 1] = arr[arr.length - 1];
 
-  while (i < s.length ) {
-    if (s[i] === t[j]) {
-      j++
-    }
-
-    i++;
+  for (let i = 1; i < arr.length; i++) {
+    leftSum[i] = leftSum[i - 1] + arr[i];
   }
 
-  return t.length - j;
-};
+  for (let i = arr.length - 2; i >= 0; i--) {
+    rightSum[i] = rightSum[i + 1] + arr[i];
+  }
 
-console.log(appendCharacters("abcdfgh", "abc"));
+  for (let i = 0; i < arr.length; i++) {
+    if (leftSum[i] === rightSum[i]) {
+      return i;
+    }
+  }
+
+  return -1;
+}

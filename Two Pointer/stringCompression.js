@@ -32,7 +32,7 @@ var compress = function (chars) {
     }
   }
 
-  hars[index] = ch;
+  chars[index] = ch;
   index++;
 
   if (count > 1) {
