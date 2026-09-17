@@ -132,9 +132,9 @@ The following topics will be handled separately:
 | 24 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | Medium | Sorting + Two Pointers | 🟢 Solved |
 | 25 | [4Sum](https://leetcode.com/problems/4sum/) | Medium | Sorting + Two Pointers | 🟢 Solved |
 | 26 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | Sorting + Two Pointers | 🟢 Solved |
-| 27 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
-| 28 | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | Medium | Two Pointers + Counting | ⬜ Unsolved |
-| 29 | [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
+| 27 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | Medium | Sorting + Two Pointers | 🟢 Solved |
+| 28 | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | Medium | Two Pointers + Counting | 🟢 Solved |
+| 29 | [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium | Sorting + Two Pointers | 🟢 Solved |
 | 30 | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | Medium | Two Pointers / Partition | ⬜ Unsolved |
 | 31 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | Medium | Two Pointers | ⬜ Unsolved |
 | 32 | [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/) | Medium | Sorting + Two Pointers | ⬜ Unsolved |
@@ -153,8 +153,8 @@ The following topics will be handled separately:
 
 | Category | Count |
 |---|---:|
-| Solved | 26 / 40 |
-| Unsolved | 14 / 40 |
+| Solved | 29 / 40 |
+| Unsolved | 11 / 40 |
 | Total | 40 |
 
 ## 📝 Status Legend
