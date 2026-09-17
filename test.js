@@ -1,27 +1,29 @@
 /**
  * @format
- * @param {Number[]} arr
+ * @param {number[]} nums
+ * @return {number[]}
  */
 
-function pivot(arr) {
-  let leftSum = new Array(arr.length).fill(0);
-  leftSum[0] = arr[0];
-  let rightSum = new Array(arr.length).fill(0);
-  rightSum[arr.length - 1] = arr[arr.length - 1];
-
-  for (let i = 1; i < arr.length; i++) {
-    leftSum[i] = leftSum[i - 1] + arr[i];
+var sortArrayByParityII = function (nums) {
+  function check(n) {
+    if (n % 2 === 0) {
+      return true;
+    }
+    return false;
   }
 
-  for (let i = arr.length - 2; i >= 0; i--) {
-    rightSum[i] = rightSum[i + 1] + arr[i];
-  }
+  let i = 0;
+  let j = 1;
 
-  for (let i = 0; i < arr.length; i++) {
-    if (leftSum[i] === rightSum[i]) {
-      return i;
+  while (i < nums.length || j < nums.length) {
+    if (check(arr[i])) {
+      i += 2;
+    } else if (!check(arr[j])) {
+      j += 2;
+    } else {
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+      i += 2;
+      j += 2;
     }
   }
-
-  return -1;
-}
+};
