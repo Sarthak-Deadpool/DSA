@@ -6,7 +6,7 @@
  */
 
 var numSubseq = function (nums, target) {
-  nums.sort((a, b) => a - b);
+  nums.sort((c, b) => c - b);
   let i = 0;
   let j = nums.length - 1;
 
