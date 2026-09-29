@@ -162,14 +162,7 @@ The following topics will be handled separately:
 | Unsolved | 11 / 40 |
 | Total    |      40 |
 
-## 📝 Status Legend
 
-- 🟢 **Solved** — Solved independently
-- 🟡 **Attempted** — Needed a hint
-- 🔵 **Revised** — Solved again during revision
-- ⬜ **Unsolved** — Not solved yet
-
----
 
 ## 🎯 Two Pointer Patterns
 
