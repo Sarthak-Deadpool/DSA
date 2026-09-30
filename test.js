@@ -1,8 +1,8 @@
 
 
 var sortArrayByParityII = function (nums) {
-  function check(n) {
-    if (n % 2 === 0) {
+  function check(num) {
+    if (num % 2 === 0) {
       return true;
     }
     return false;
