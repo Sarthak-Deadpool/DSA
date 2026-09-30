@@ -1,8 +1,4 @@
-/**
- * @format
- * @param {number[]} nums
- * @return {number[]}
- */
+
 
 var sortArrayByParityII = function (nums) {
   function check(n) {
