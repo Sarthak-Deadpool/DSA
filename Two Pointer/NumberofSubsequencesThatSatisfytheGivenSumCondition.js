@@ -10,6 +10,8 @@ var numSubseq = function (nums, target) {
   let i = 0;
   let j = nums.length - 1;
 
+  // ngbgngn
+
   const MOD = 1000000007;
   let ans = 0;
 
